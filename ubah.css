@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'NostalgicLetter';
+    src: url('Nostalgic Letter.otf') format('opentype');
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #FBEAD6;
+    color: #C87D87;
+    font-family: garamond, serif;
+}
+
+.navbar .navbar-brand {
+    color: #C87D87;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    gap: 25px;
+    font-size: larger ;
+    font-weight: bold;
+}
