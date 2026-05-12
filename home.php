@@ -91,6 +91,21 @@
     </button>
   </div>
 </section>
+
+<section class="about">
+  <div class="container text-center">
+    <h1>Our Story</h1>
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="home1.jpg" alt="dapur">
+    </div>
+    <div class="col-md-6">
+      <p>Sejak 2018, kami menghadirkan pengalaman dessert yang tidak hanya lezat, tetapi juga berkesan. Dengan perpaduan bahan berkualitas, resep pilihan, dan sentuhan kreativitas, setiap produk kami dibuat untuk memberikan kepuasan terbaik. Kepercayaan pelanggan selama bertahun-tahun menjadi bukti komitmen kami dalam menjaga kualitas dan menghadirkan yang terbaik di setiap sajian.</p>
+      <a href="about.php" class="btn btn-custom">About Us</a>
+    </div>
+  </div>
+</div>
+</section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>

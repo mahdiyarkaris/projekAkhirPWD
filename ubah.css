@@ -22,3 +22,39 @@
     font-size: larger ;
     font-weight: bold;
 }
+
+/* home */
+.about img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  transform: rotate(-3deg);
+  border: 12px solid white;
+  border-bottom: 60px solid white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about img:hover {
+  transform: rotate(0deg) scale(1.03);
+}
+
+.about {
+    padding: 50px;
+    background-color: #FBEAD6;
+    padding-bottom: 170px;
+}
+
+.about h1 {
+    font-family: 'NostalgicLetter', serif;
+    color: #C87D87;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about p {
+    background-color: #6B7556;
+    color: white;
+    border-radius: 50px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
