@@ -106,6 +106,58 @@
   </div>
 </div>
 </section>
+
+<section class="best">
+  <h1>Best Seller</h1>
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card shadow">
+      <img src="cup3.jpeg" class="card-img-top" alt="cup3">
+      <div class="card-body">
+        <h5 class="card-title">Sweet Sprinkle Cupcake</h5>
+        <p class="card-text">Cupcake lembut dengan buttercream creamy dan topping strawberry crumble.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <img src="puding1.jpeg" class="card-img-top" alt="puding1">
+      <div class="card-body">
+        <h5 class="card-title">Classic Caramel Pudding</h5>
+        <p class="card-text">Puding susu lembut dengan saus karamel yang manis.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <img src="cake2.jpeg" class="card-img-top" alt="cake2">
+      <div class="card-body">
+        <h5 class="card-title">Fruit Cheesecake Slice</h5>
+        <p class="card-text">Cheesecake lembut dengan topping buah segar dan creamy.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <img src="ice1.jpeg" class="card-img-top" alt="ice1">
+      <div class="card-body">
+        <h5 class="card-title">Lotus Banana Dessert</h5>
+        <p class="card-text">Dessert creamy dengan potongan pisang, whipped cream, dan topping lotus biscoff yang manis legit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="button-menu">
+  <a href="menu1.php" class="btn btn-custom">Explore menu</a>
+</section>
+
+<footer class="footer">
+    <div class="container text-center">
+        <p>&copy; 2026 Dessert. All rights reserved.</p>
+    </div>
+</footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>

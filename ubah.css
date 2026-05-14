@@ -58,3 +58,47 @@
     padding: 30px;
     margin-bottom: 50px;
 }
+
+
+.best {
+    padding: 50px;
+}
+
+.best h1 {
+    font-family: 'NostalgicLetter', serif;
+    color: #C87D87;
+    margin-bottom: 30px;
+}
+
+.best .card {
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.best .card:hover {
+  transform: scale(1.05);
+}
+
+.best .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.button-menu {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.btn.btn-custom {
+    background-color: #C87D87;
+    border-color: #C87D87;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn.btn-custom:hover {
+    background-color: #6e4349;
+    border-color: #6e4349;
+    transform: scale(1.05);
+}
