@@ -55,6 +55,158 @@ session_start();
     </div>
   </div>
 
+  <div class="container mt-4">
+  <h2 class="text-center mb-4">Cupcake</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="cup1.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Vanilla Cream Cupcake</h5>
+          <p class="fw-bold text-danger">Rp 18.000</p>
+          <p>Cupcake vanilla dengan buttercream halus dan hiasan daun thyme.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="cup2.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Cherry Topped Cupcake</h5>
+          <p class="fw-bold text-danger">Rp 20.000</p>
+          <p>Cupcake vanilla lembut dengan topping cream manis dan cherry segar.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="cup3.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Sweet Sprinkle Cupcake</h5>
+          <p class="fw-bold text-danger">Rp 17.000</p>
+          <p>Cupcake lembut dengan buttercream creamy dan topping strawberry crumble.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Pudding</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="puding1.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Classic Caramel Pudding</h5>
+          <p class="fw-bold text-danger">Rp 25.000</p>
+          <p>Puding susu lembut dengan saus karamel yang manis.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="puding2.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Strawberry Milk Pudding</h5>
+          <p class="fw-bold text-danger">Rp 28.000</p>
+          <p>Puding susu dengan topping saus strawberry segar, creamy dan ringan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="puding3.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Banana Caramel Pudding</h5>
+          <p class="fw-bold text-danger">Rp 30.000</p>
+          <p>Puding lembut dengan tambahan pisang dan karamel, manis dan legit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Cake</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="cake1.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Fresh Peach Cake</h5>
+          <p class="fw-bold text-danger">Rp 45.000</p>
+          <p>Cake lembut dengan topping buah peach segar yang manis dan juicy.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="cake2.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Fruit Cheesecake Slice</h5>
+          <p class="fw-bold text-danger">Rp 48.000</p>
+          <p>Cheesecake lembut dengan topping buah segar dan creamy.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="cake3.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Lemon Soft Cake</h5>
+          <p class="fw-bold text-danger">Rp 43.000</p>
+          <p>Cake lembut dengan rasa lemon segar, kombinasi manis dan sedikit asam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Ice Cream</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="ice2.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Oreo Berry Ice Cream</h5>
+          <p class="fw-bold text-danger">Rp 25.000</p>
+          <p>Ice cream creamy dengan topping oreo crumble dan buah berry segar yang manis dan dingin.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="ice1.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Lotus Banana Dessert</h5>
+          <p class="fw-bold text-danger">Rp 30.000</p>
+          <p>Dessert creamy dengan potongan pisang, whipped cream, dan topping lotus biscoff yang manis legit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="ice3.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Matcha Vanilla Sundae</h5>
+          <p class="fw-bold text-danger">Rp 28.000</p>
+          <p>Perpaduan ice cream vanilla dan matcha creamy dengan topping kacang almond yang crunchy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <footer class="footer">
     <div class="container text-center">
         <p>&copy; 2026 Dessert. All rights reserved.</p>
