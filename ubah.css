@@ -120,3 +120,75 @@
     margin-top: auto;
     text-decoration: none;
 }
+
+
+/* login */
+.welcome {
+    font-family: 'NostalgicLetter', serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-align: center;
+    
+}
+
+.deskripsi {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+.akun {
+    padding-top: 20px;
+}
+
+
+/* login & register */
+.daftar {
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 60px 0;
+
+    background-color: rgba(134, 127, 119, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+.daftar {
+    padding: 50px;
+}
+
+.daftar .card {
+    width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #FBEAD6;
+    transition: 0.3s; 
+}
+
+.daftar .card:hover {
+    transform: scale(1.02); 
+}
+
+.daftar .btn-primary {
+    background-color: #C87D87;
+    border-color: #C87D87;
+    display: block;
+    margin-left: auto;
+    transition: 0.3s;
+}
+
+.daftar .btn-primary:hover {
+    background-color: #6e4349;
+    border-color: #6e4349;
+    transform: scale(1.05);
+}
+
+.daftar .form-control:focus {
+    border-color: #C87D87;    
+    box-shadow: 0 0 0 3px rgba(200, 125, 135, 0.2);
+}
