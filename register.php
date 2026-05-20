@@ -12,9 +12,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $query = mysqli_query($koneksi, "INSERT INTO users (nama, email, password, no_hp, alamat) VALUES ('$nama', '$email', '$password', '$no_hp', '$alamat')");
  
     if ($query) {
-        echo "<script>alert('Registrasi berhasil! Silahkan login.'); window.location='login.php';</script>";
+      header('Location: login.php');
+      exit();
+      
     } else {
-        echo "<script>alert('Registrasi gagal, coba lagi!');</script>";
+      header('Location: register.php');
+      exit();
     }
 }
 ?>
