@@ -103,6 +103,7 @@
     transform: scale(1.05);
 }
 
+/* menu */
 .card-title{
     font-weight: bold;
     color: #8b6f47;
@@ -191,4 +192,12 @@
 .daftar .form-control:focus {
     border-color: #C87D87;    
     box-shadow: 0 0 0 3px rgba(200, 125, 135, 0.2);
+}
+/* order */
+.gambar-card {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 12px;
 }
