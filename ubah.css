@@ -373,6 +373,21 @@
 }
 
 
+/* about */
+.gambar-order {
+    border-radius: 16px;
+    max-height: 360px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.gambar-about {
+    border-radius: 12px;
+    object-fit: cover;
+    max-height: 500px;
+    width: 100%;
+}
+
 
 /* footer */
 .footer {
