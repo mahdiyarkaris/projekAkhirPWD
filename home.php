@@ -155,7 +155,7 @@
 
 <footer class="footer">
     <div class="container text-center">
-        <p>&copy; 2026 Dessert. All rights reserved.</p>
+        <p>&copy; 2026 Sweet Story. All rights reserved.</p>
     </div>
 </footer>
     
