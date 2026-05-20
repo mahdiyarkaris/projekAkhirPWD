@@ -201,3 +201,77 @@
     width: 100%;
     margin-bottom: 12px;
 }
+
+/* informasi akun */
+.info-akun {
+    background-color: #F0C4CB;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: small;
+}
+
+.informasi {
+    margin-top: 30px;
+}
+
+.card-info-akun {
+    background-color: white;
+    border: 0.5px solid #e8c9a0;
+    border-radius: 16px;
+    padding: 20px 25px;
+}
+ 
+.nama-info {
+    color: #8b6f47;
+    font-size: 14px;
+}
+ 
+.value-akun {
+    color: #8c3f5a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pilihan {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pilihan .btn-lihatmenu {
+    background-color: #6B7556;
+    border-color: #6B7556;
+    color: white;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.pilihan .btn-lihatmenu:hover {
+    background-color: #6B7556;
+    border-color: #6B7556;
+    transform: scale(1.05);
+}
+
+.pilihan .btn-logout {
+    background-color: #C87D87;
+    border-color: #C87D87;
+    color: white;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.pilihan .btn-logout:hover {
+    background-color: #986168;
+    border-color: #986168;
+    transform: scale(1.05);
+}
+
+
+/* footer */
+.footer {
+    background-color: #FBEAD6;
+    padding: 20px 0px;  
+}

@@ -32,7 +32,7 @@
         <ul class="navbar-nav nav-right my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <?php if(isset($_SESSION['logged_in'])): ?>
             <li class="nav-item">
-              <a class="nav-link" href="dashboard.php"><?php echo $_SESSION['nama']; ?></a>
+              <a class="nav-link" href="infoakun.php"><?php echo $_SESSION['nama']; ?></a>
             </li>
           <?php else: ?>
             <li class="nav-item">
@@ -97,7 +97,7 @@
     <h1>Our Story</h1>
   <div class="row align-items-center">
     <div class="col-md-6">
-      <img src="home1.jpg" alt="dapur">
+      <img src="home1.jpeg" alt="dapur">
     </div>
     <div class="col-md-6">
       <p>Sejak 2018, kami menghadirkan pengalaman dessert yang tidak hanya lezat, tetapi juga berkesan. Dengan perpaduan bahan berkualitas, resep pilihan, dan sentuhan kreativitas, setiap produk kami dibuat untuk memberikan kepuasan terbaik. Kepercayaan pelanggan selama bertahun-tahun menjadi bukti komitmen kami dalam menjaga kualitas dan menghadirkan yang terbaik di setiap sajian.</p>
@@ -150,7 +150,7 @@
 </section>
 
 <section class="button-menu">
-  <a href="menu1.php" class="btn btn-custom">Explore menu</a>
+  <a href="menu.php" class="btn btn-custom">Explore menu</a>
 </section>
 
 <footer class="footer">

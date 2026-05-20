@@ -50,7 +50,7 @@ $keterangan = $_GET['keterangan'];
       <ul class="navbar-nav nav-right my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <?php if(isset($_SESSION['logged_in'])): ?>
             <li class="nav-item">
-              <a class="nav-link" href="dashboard.php"><?php echo $_SESSION['nama']; ?></a>
+              <a class="nav-link" href="infoakun.php"><?php echo $_SESSION['nama']; ?></a>
             </li>
           <?php else: ?>
             <li class="nav-item">
