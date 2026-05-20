@@ -60,7 +60,7 @@ $query_orders = mysqli_query($koneksi, "SELECT * FROM pesanan WHERE user_id = '$
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-6">
-      <div class="dashboard">
+      <div class="info-akun">
         <h3>Riwayat Pesanan</h3>
       </div>
     </div>

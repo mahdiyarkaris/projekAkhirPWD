@@ -85,7 +85,7 @@
       <div class="col-md-4">
         <div class="card h-100 p-3">
           <div class="card-body">
-            <img src="abc.jpeg" class="gambar-card">
+            <img src="ab3.jpeg" class="gambar-card">
             <h5 class="card-title">Dibuat dengan Cinta</h5>
             <p class="card-text">Setiap produk dibuat secara homemade dengan penuh perhatian dan cinta.</p>
           </div>
