@@ -144,6 +144,24 @@
 
 
 /* login & register */
+.welcome {
+    font-family: 'NostalgicLetter', serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-align: center;
+   
+}
+
+.deskripsi {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+.akun {
+    padding-top: 20px;
+}
+
 .daftar {
     background-image: url('bg3.jpg');
     background-size: cover;
@@ -175,7 +193,7 @@
     transform: scale(1.02); 
 }
 
-.daftar .btn-primary {
+.daftar .btn-masuk {
     background-color: #C87D87;
     border-color: #C87D87;
     display: block;
@@ -183,9 +201,9 @@
     transition: 0.3s;
 }
 
-.daftar .btn-primary:hover {
-    background-color: #6e4349;
-    border-color: #6e4349;
+.daftar .btn-masuk:hover {
+    background-color: #986168;
+    border-color: #986168;
     transform: scale(1.05);
 }
 
@@ -291,6 +309,69 @@
     background-color: #E5BCA9;
     color: black;
 }
+
+
+/* admin */
+.kotak-stat {
+    border: none;
+    border-radius: 16px;
+    background-color: #FBEAD6;
+}
+
+.angka-stat {
+    color: #C87D87;
+    font-family: garamond, serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.tulisan-stat {
+    color: #8b6f47;
+    font-weight: bold;
+    margin: 0;
+}
+
+.judul-tabel {
+    color: #8b6f47;
+    font-family: garamond, serif;
+    font-weight: bold;
+}
+
+.kepala-tabel {
+    background-color: #FBEAD6;
+    color: #8b6f47;
+}
+
+.isi-halaman {
+    min-height: 500px;
+}
+
+.isi-halaman h1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.btn-edit-pesanan {
+    background-color: #6B7556;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 4px;
+}
+
+.btn-hapus-pesanan {
+    background-color: #C87D87;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
 
 
 /* footer */

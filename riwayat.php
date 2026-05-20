@@ -95,7 +95,7 @@ $query_orders = mysqli_query($koneksi, "SELECT * FROM pesanan WHERE user_id = '$
 </section>
 
 <section class="pilihan">
-  <a href="menu1.php" class="btn btn-primary">Lihat Menu</a>
+  <a href="menu.php" class="btn btn-primary">Lihat Menu</a>
   <a href="logout.php" class="btn btn-danger">Logout</a>
 </section> 
 
