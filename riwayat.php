@@ -8,6 +8,7 @@ if (!isset($_SESSION['logged_in'])) {
 }
 
 $id_user = $_SESSION['id'];
+$query_orders = mysqli_query($koneksi, "SELECT * FROM pesanan WHERE user_id = '$id_user' ORDER BY tanggal DESC");
 ?>
 
 <!doctype html>
@@ -40,73 +41,63 @@ $id_user = $_SESSION['id'];
           </li>
         </ul>
         <ul class="navbar-nav nav-right my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <?php if($_SESSION['role'] == 'admin'): ?>
-            <li class="nav-item">
-              <a class="nav-link" href="admin.php">Admin</a>
-            </li>
-          <?php else: ?>
-            <li class="nav-item">
-              <a class="nav-link" href="riwayat.php">Riwayat Pesanan</a>
-            </li>
-          <?php endif; ?>
-        </ul>
+            <?php if(isset($_SESSION['logged_in'])): ?>
+              <li class="nav-item">
+                <a class="nav-link" href="infoakun.php"><?php echo $_SESSION['nama']; ?></a>
+              </li>
+            <?php else: ?>
+              <li class="nav-item">
+                <a class="nav-link" href="login.php">Login</a>
+              </li>
+            <?php endif; ?>
+          </ul>
 
       </div>
     </div>
   </nav>
 
+
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-6">
-      <div class="info-akun">
-          <p>Selamat datang kembali!</p>
-          <h3>Halo, <?php echo $_SESSION['nama']; ?>!</h3>
-          <p><?php echo $_SESSION['email']; ?></p>
+      <div class="dashboard">
+        <h3>Riwayat Pesanan</h3>
       </div>
     </div>
   </div>
 </div>
 
-<section class="section-informasi">
-  <div class="container mt-4 mb-5">
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <div class="card-info-akun">
-        <p clas="judul-info-akun">Informasi Akun</p>
-        <table class="table">
-        <tbody>
-          <tr>
-              <td class="nama-info">Nama</td>
-              <td class="text-end value-akun"><?php echo $_SESSION['nama']; ?></td>
-          </tr>
-          <tr>
-              <td class="nama-info">Email</td>
-              <td class="text-end value-akun"><?php echo $_SESSION['email']; ?></td>
-          </tr>
-          <tr>
-              <td class="nama-info">No. HP</td>
-              <td class="text-end value-akun"><?php echo $_SESSION['no_hp']; ?></td>
-          </tr>
-          <tr>
-              <td class="nama-info">Alamat</td>
-              <td class="text-end value-akun"><?php echo $_SESSION['alamat']; ?></td>
-          </tr>
-        </tbody>
-      </table>
+<section class="informasi">
+  <div class="container text-center">
+  <div class="row justify-content-center align-items-stretch">
+    <div class="col-md-12">
+          <div class="card p-3 h-100">
+            <?php if (mysqli_num_rows($query_orders) > 0): ?>
+                <?php while ($order = mysqli_fetch_assoc($query_orders)): ?>
+                    <a href="struk.php?id=<?php echo $order['id_pesanan']; ?>" class="item-pesanan border-bottom py-2">
+                      <div class="text-start">
+                        <strong><?php echo $order['nama_produk']; ?></strong><br>
+                        <small class="text-muted">
+                          <?php echo $order['jumlah']; ?>x - Rp <?php echo number_format($order['total_bayar'], 0, ',', '.'); ?>
+                        </small>
+                       </div>
+                         <small class="text-muted"><?php echo $order['tanggal']; ?></small>
+                    </a> 
+                <?php endwhile; ?>
+            <?php else: ?>
+                <p class="text-muted">Belum ada pesanan.</p>
+            <?php endif; ?>
+ 
+          </div>
+        </div>
       </div>
     </div>
-
-    </div>
-  </div>
 </section>
 
 <section class="pilihan">
-  <a href="menu1.php" class="btn btn-lihatmenu">Lihat Menu</a>
-  <a href="logout.php" class="btn btn-logout">Logout</a>
+  <a href="menu1.php" class="btn btn-primary">Lihat Menu</a>
+  <a href="logout.php" class="btn btn-danger">Logout</a>
 </section> 
-
-    
-    
 
 <footer class="footer">
     <div class="container text-center">

@@ -193,6 +193,8 @@
     border-color: #C87D87;    
     box-shadow: 0 0 0 3px rgba(200, 125, 135, 0.2);
 }
+
+
 /* order */
 .gambar-card {
     border-radius: 8px;
@@ -201,6 +203,7 @@
     width: 100%;
     margin-bottom: 12px;
 }
+
 
 /* informasi akun */
 .info-akun {
@@ -267,6 +270,26 @@
     background-color: #986168;
     border-color: #986168;
     transform: scale(1.05);
+}
+
+
+/* riwayat */
+.item-pesanan {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #C87D87;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background-color: #FBEAD6;
+}
+
+.item-pesanan:hover {
+    background-color: #E5BCA9;
+    color: black;
 }
 
 
