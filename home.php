@@ -13,7 +13,7 @@
 
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Cloudy Dessert</a>
+      <a class="navbar-brand" href="#">Sweet Story</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -60,21 +60,21 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="home2.jpg" class="d-block w-100" alt="home2">
+        <img src="puding33.jpeg" class="d-block w-100" alt="home2">
         <div class="carousel-caption d-none d-md-block">
           <h5>Pudding</h5>
           <p>Dibuat dari bahan pilihan dengan tekstur ekstra halus dan creamy yang lumer di mulut.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="home3.jpeg" class="d-block w-100" alt="home3">
+        <img src="Cake11.jpeg" class="d-block w-100" alt="home3">
         <div class="carousel-caption d-none d-md-block">
           <h5>Cake</h5>
           <p>Dipanggang fresh setiap hari dengan tekstur super lembut dan rasa yang rich di setiap lapisan.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="home4.png" class="d-block w-100" alt="home4">
+        <img src="ice33.jpeg" class="d-block w-100" alt="home4">
         <div class="carousel-caption d-none d-md-block">
           <h5>Ice cream</h5>
           <p>Diracik dengan rasa autentik dan sensasi dingin yang segar, cocok untuk setiap suasana.</p>
@@ -97,7 +97,7 @@
     <h1>Our Story</h1>
   <div class="row align-items-center">
     <div class="col-md-6">
-      <img src="home1.jpeg" alt="dapur">
+      <img src="bg.jpg" alt="dapur">
     </div>
     <div class="col-md-6">
       <p>Sejak 2018, kami menghadirkan pengalaman dessert yang tidak hanya lezat, tetapi juga berkesan. Dengan perpaduan bahan berkualitas, resep pilihan, dan sentuhan kreativitas, setiap produk kami dibuat untuk memberikan kepuasan terbaik. Kepercayaan pelanggan selama bertahun-tahun menjadi bukti komitmen kami dalam menjaga kualitas dan menghadirkan yang terbaik di setiap sajian.</p>

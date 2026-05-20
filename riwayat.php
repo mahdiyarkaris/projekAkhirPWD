@@ -24,7 +24,7 @@ $query_orders = mysqli_query($koneksi, "SELECT * FROM pesanan WHERE user_id = '$
 
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dessert</a>
+      <a class="navbar-brand" href="#">Sweet Story</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -95,8 +95,8 @@ $query_orders = mysqli_query($koneksi, "SELECT * FROM pesanan WHERE user_id = '$
 </section>
 
 <section class="pilihan">
-  <a href="menu.php" class="btn btn-primary">Lihat Menu</a>
-  <a href="logout.php" class="btn btn-danger">Logout</a>
+  <a href="menu.php" class="btn btn-lihatmenu">Lihat Menu</a>
+  <a href="logout.php" class="btn btn-logout">Logout</a>
 </section> 
 
 <footer class="footer">

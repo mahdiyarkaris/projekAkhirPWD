@@ -13,7 +13,7 @@ session_start();
   <body>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dessert</a>
+      <a class="navbar-brand" href="#">Sweet Story</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,7 +56,7 @@ session_start();
   </div>
 
   <div class="container mt-4">
-  <h2 class="text-center mb-4">Cupcake</h2>
+  <h2 class="text-center mb-4 judul-kategori">Cupcake</h2>
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="card h-100">
@@ -109,7 +109,7 @@ session_start();
 </div>
 
 <div class="container mt-4">
-  <h2 class="text-center mb-4">Pudding</h2>
+  <h2 class="text-center mb-4 judul-kategori">Pudding</h2>
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="card h-100">
@@ -162,7 +162,7 @@ session_start();
 </div>
 
 <div class="container mt-4">
-  <h2 class="text-center mb-4">Cake</h2>
+  <h2 class="text-center mb-4 judul-kategori">Cake</h2>
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="card h-100">
@@ -215,7 +215,7 @@ session_start();
 </div>
 
 <div class="container mt-4">
-  <h2 class="text-center mb-4">Ice Cream</h2>
+  <h2 class="text-center mb-4 judul-kategori">Ice Cream</h2>
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="card h-100">

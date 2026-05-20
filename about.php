@@ -13,7 +13,7 @@
 
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dessert</a>
+      <a class="navbar-brand" href="#">Sweet Story</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,7 +47,7 @@
   <div class="container mt-4">
   <div class="bg-light text-center p-5 rounded">
     <h1 class="fw-bold">Tentang Kami</h1>
-    <p>Mengenal lebih dekat Dessert — toko kue rumahan penuh cinta</p>
+    <p>Mengenal lebih dekat Sweet Story — toko kue rumahan penuh cinta</p>
   </div>
 </div>
 
@@ -60,7 +60,7 @@
     <div class="col-md-6">
       <h1><b>Cerita Kami</b></h1>
       <hr>
-      <p>Dessert lahir dari kecintaan kami terhadap dunia pastry dan keinginan untuk berbagi kebahagiaan lewat setiap gigitan. Kami percaya bahwa dessert bukan sekadar makanan penutup — ia adalah cara kami menyampaikan rasa sayang kepada setiap pelanggan.</p>
+      <p>Sweet Story lahir dari kecintaan kami terhadap dunia pastry dan keinginan untuk berbagi kebahagiaan lewat setiap gigitan. Kami percaya bahwa dessert bukan sekadar makanan penutup — ia adalah cara kami menyampaikan rasa sayang kepada setiap pelanggan.</p>
       <p>Setiap produk kami dibuat dengan bahan-bahan pilihan berkualitas tinggi, tanpa kompromi dalam hal rasa maupun tampilan. Mulai dari cupcake yang lembut, pudding yang segar, hingga cake yang elegan — semua hadir untuk memanjakan lidah kamu.</p>
       <p>Kami terus berinovasi menghadirkan menu-menu baru yang mengikuti selera zaman, namun tetap mempertahankan kualitas dan cita rasa yang sudah dipercaya oleh ribuan pelanggan kami. Kepuasan kamu adalah prioritas utama kami.</p>
       <p>Bergabunglah bersama komunitas pecinta dessert kami dan rasakan sendiri pengalaman manis yang tak terlupakan. Karena bagi kami, setiap gigitan adalah momen kebahagiaan yang ingin kami ciptakan untuk kamu.</p>

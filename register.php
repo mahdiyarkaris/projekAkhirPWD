@@ -32,17 +32,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dessert</a>
+      <a class="navbar-brand" href="#">Sweet Story</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
-            <a class="nav-link" href="home1.php">Home</a>
+            <a class="nav-link" href="home.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="menu1.php">Menu</a>
+            <a class="nav-link" href="menu.php">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.php">About</a>
@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 <section class="daftar">
-    <h1 class="welcome">Welcome to Dessert</h1>
+    <h1 class="welcome">Welcome to Sweet Story</h1>
     <p class="deskripsi">We resigned our side to make shopping with us better!"</p>
     <div class="card">
         <h5 class="card-header text-center">Register</h5>
