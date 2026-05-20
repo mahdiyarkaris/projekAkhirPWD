@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'NostalgicLetter';
+    src: url('Nostalgic Letter.otf') format('opentype');
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #FBEAD6;
+    color: #C87D87;
+    font-family: garamond, serif;
+}
+
+.navbar .navbar-brand {
+    color: #C87D87;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    gap: 25px;
+    font-size: larger ;
+    font-weight: bold;
+}
+
+/* home */
+.about img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  transform: rotate(-3deg);
+  border: 12px solid white;
+  border-bottom: 60px solid white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about img:hover {
+  transform: rotate(0deg) scale(1.03);
+}
+
+.about {
+    padding: 50px;
+    background-color: #FBEAD6;
+    padding-bottom: 170px;
+}
+
+.about h1 {
+    font-family: 'NostalgicLetter', serif;
+    color: #C87D87;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about p {
+    background-color: #6B7556;
+    color: white;
+    border-radius: 50px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+
+.best {
+    padding: 50px;
+}
+
+.best h1 {
+    font-family: 'NostalgicLetter', serif;
+    color: #C87D87;
+    margin-bottom: 30px;
+}
+
+.best .card {
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.best .card:hover {
+  transform: scale(1.05);
+}
+
+.best .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.button-menu {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.btn.btn-custom {
+    background-color: #C87D87;
+    border-color: #C87D87;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn.btn-custom:hover {
+    background-color: #6e4349;
+    border-color: #6e4349;
+    transform: scale(1.05);
+}
+
+/* menu */
+.card-title{
+    font-weight: bold;
+    color: #8b6f47;
+}
+
+.menu-btn{
+    background-color: #6b7556;
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    border: none;
+    margin-top: auto;
+    text-decoration: none;
+}
+
+
+/* login */
+.welcome {
+    font-family: 'NostalgicLetter', serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-align: center;
+    
+}
+
+.deskripsi {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+.akun {
+    padding-top: 20px;
+}
+
+
+/* login & register */
+.daftar {
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 60px 0;
+
+    background-color: rgba(134, 127, 119, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+.daftar {
+    padding: 50px;
+}
+
+.daftar .card {
+    width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #FBEAD6;
+    transition: 0.3s; 
+}
+
+.daftar .card:hover {
+    transform: scale(1.02); 
+}
+
+.daftar .btn-primary {
+    background-color: #C87D87;
+    border-color: #C87D87;
+    display: block;
+    margin-left: auto;
+    transition: 0.3s;
+}
+
+.daftar .btn-primary:hover {
+    background-color: #6e4349;
+    border-color: #6e4349;
+    transform: scale(1.05);
+}
+
+.daftar .form-control:focus {
+    border-color: #C87D87;    
+    box-shadow: 0 0 0 3px rgba(200, 125, 135, 0.2);
+}
+/* order */
+.gambar-card {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 12px;
+}
