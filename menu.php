@@ -20,17 +20,10 @@ session_start();
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
-<<<<<<< HEAD
             <a class="nav-link" href="home.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="menu.php">Menu</a>
-=======
-            <a class="nav-link" href="home1.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="menu1.php">Menu</a>
->>>>>>> 7e02dbb5e79e5485c44db58190e346453fbda8e7
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.php">About</a>
