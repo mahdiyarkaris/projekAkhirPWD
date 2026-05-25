@@ -41,23 +41,28 @@ $keterangan = $_GET['keterangan'];
           <a class="nav-link" href="home.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="menu.php">Menu</a>
+          <a class="nav-link" href="menu.php">Menu</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.php">About</a>
         </li>
       </ul>
       <ul class="navbar-nav nav-right my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <?php if(isset($_SESSION['logged_in'])): ?>
-            <li class="nav-item">
-              <a class="nav-link" href="infoakun.php"><?php echo $_SESSION['nama']; ?></a>
-            </li>
-          <?php else: ?>
-            <li class="nav-item">
-              <a class="nav-link" href="login.php">Login</a>
-            </li>
-          <?php endif; ?>
-        </ul>
+        <?php if($_SESSION['role'] == 'admin'): ?>
+          <li class="nav-item">
+            <a class="nav-link" href="admin.php">Dashboard</a>
+          </li>
+        <?php else: ?>
+          <li class="nav-item">
+            <a class="nav-link" href="riwayat.php">Riwayat Pesanan</a>
+          </li>     
+        <?php endif; ?>     
+        <li class="nav-item">
+          <a class="nav-link" href="infoakun.php">
+            <?php echo $_SESSION['nama']; ?>
+          </a>
+        </li> 
+      </ul>
     </div>
   </div>
 </nav>

@@ -31,26 +31,30 @@ $id_user = $_SESSION['id'];
         <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
             <a class="nav-link" href="home.php">Home</a>
-          </li>
+          </li>      
           <li class="nav-item">
             <a class="nav-link" href="menu.php">Menu</a>
-          </li>
+          </li>    
           <li class="nav-item">
             <a class="nav-link" href="about.php">About</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav nav-right my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <?php if($_SESSION['role'] == 'admin'): ?>
+          </li>     
+        </ul>      
+        <ul class="navbar-nav nav-right my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">       
+          <?php if($_SESSION['role'] == 'admin'): ?>    
             <li class="nav-item">
-              <a class="nav-link" href="admin.php">Admin</a>
+              <a class="nav-link" href="admin.php">Dashboard</a>
             </li>
-          <?php else: ?>
+          <?php else: ?>      
             <li class="nav-item">
               <a class="nav-link" href="riwayat.php">Riwayat Pesanan</a>
-            </li>
-          <?php endif; ?>
+            </li>        
+          <?php endif; ?>       
+          <li class="nav-item">
+            <a class="nav-link" href="infoakun.php">
+              <?php echo $_SESSION['nama']; ?>
+            </a>
+          </li>     
         </ul>
-
       </div>
     </div>
   </nav>
